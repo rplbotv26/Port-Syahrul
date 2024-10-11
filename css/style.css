@@ -700,3 +700,19 @@ body.dark-mode #darkmode {
 body:not(.dark-mode) #darkmode {
   color: #2c3e50; /* Warna ikon saat mode terang */
 }
+
+#typing-text {
+  overflow: hidden; /* hide the text initially */
+  animation: typing 2s steps(40, end) infinite; /* animate the text */
+  white-space: pre; /* preserve whitespace and line breaks */
+  border-right: 3px solid; /* Add cursor */
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
