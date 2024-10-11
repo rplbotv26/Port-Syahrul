@@ -703,7 +703,7 @@ body:not(.dark-mode) #darkmode {
 
 #typing-text {
   overflow: hidden; /* hide the text initially */
-  animation: typing 4s steps(40, end) infinite; /* animate the text */
+  animation: typing 4s steps(50, end) infinite; /* animate the text */
   white-space: pre; /* preserve whitespace and line breaks */
   border-right: 3px solid; /* Add cursor */
 }
